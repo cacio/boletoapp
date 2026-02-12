@@ -3,7 +3,6 @@
   "description": "Core standalone para geração de boletos bancários",
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "stable",
   "require": {
     "php": "^8.1",
     "ext-intl": "*",
@@ -15,7 +14,7 @@
     "neitanod/forceutf8": "^2.0",
     "setasign/fpdf": "^1.8",
     "chillerlan/php-qrcode": "^5.0",
-    "illuminate/support": "^12.51"
+    "illuminate/support": "^11.0"
   },
   "autoload": {
     "psr-4": {
