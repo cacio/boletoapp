@@ -1,5 +1,5 @@
 {
-  "name": "cacio/boletos-core",
+  "name": "cacio/boletoapp",
   "description": "Core standalone para geração de boletos bancários",
   "type": "library",
   "license": "MIT",
