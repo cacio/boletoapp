@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    container_name: boletos-app
+    tty: true
+    volumes:
+      - .:/var/www
+    networks:
+      - boletos
+
+networks:
+  boletos:
+    driver: bridge

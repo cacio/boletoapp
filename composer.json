@@ -1,0 +1,24 @@
+{
+  "name": "cacio/boletos-core",
+  "description": "Core standalone para geração de boletos bancários",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "ext-intl": "*",
+    "ext-mbstring": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "ext-dom": "*",
+    "neitanod/forceutf8": "^2.0",
+    "setasign/fpdf": "^1.8",
+    "chillerlan/php-qrcode": "^5.0",
+    "illuminate/support": "^12.51"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boletos\\": "src/"
+    }
+  }
+}
